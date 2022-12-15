@@ -1,5 +1,3 @@
-# Spam Classifier
-
 #### Khuziama Rehman, Azwad Shameem, Tufayel Ahmed
 
 <p align="center">

@@ -16,14 +16,37 @@ This is an intriguing issue because everyone has a cell phone and has been impac
 
 The primary dataset we used is called “SMS Spam Collection Data Set” and the link to it is “https://archive.ics.uci.edu/ml/datasets/sms+spam+collection”. We took the data from Kaggle, which cites the University as their source. The SMS Spam Collection data set extracted 425 SMS spam messages from the Grubletext Website. The majority of claims about SMS spam messages on this UK forum are made anonymously by cell phone users. Identifying the text of spam messages in claims was a difficult and time-consuming operation that required meticulously analyzing hundreds of web pages. The SMS Spam Collection Data set also extracted 3,375 SMS messages that were randomly selected from The NUS SMS Corpus (NSC) which is a dataset of approximately 10,000 genuine SMS messages gathered for research at the National University of Singapore's Department of Computer Science. The SMS Spam collection dataset has a total of 5574 instances and has 2 columns, type and sms. The type can be ham or spam. Ham denotes that the SMS message is not spam, whereas spam denotes that the SMS message is spam. We choose this dataset because it is basically a corpus of all the available SMS message datasets, unfortunately there is no other alternative because all of the available SMS messages are in this dataset.
 
+![smsdata](https://user-images.githubusercontent.com/69356399/207986043-b507ea5b-176f-4b4d-af30-4f28ccfb4beb.png)
+
+
 
 ## SMS Data Visualization
 
 ![data visualization](https://user-images.githubusercontent.com/69356399/207984747-130da9a6-fbc9-4096-9799-3077aea686be.png)
 
-![data visualization 2](https://user-images.githubusercontent.com/69356399/207984813-9a052813-15ab-4c44-95d1-1636b1bf305b.png)
 
 The visualization at the top depicts the words that are most commonly associated with spam SMS messages. As you can see, the larger text represents words that appear more frequently in spam sms messages. The words "free, text, txt, mobile, call," for example, appear frequently in spam sms messages. Based on the SPAM collection dataset, we used this data to build a model that can detect whether a message is spam. The bottom visualization shows words that are associated with non-spam SMS messages. As you can see, words like "ur, u, love, come, going, think, need" represent words that appear more frequently in non-spam sms messages.
+
+![data visualization 2](https://user-images.githubusercontent.com/69356399/207984813-9a052813-15ab-4c44-95d1-1636b1bf305b.png)
+
+![sms data graph](https://user-images.githubusercontent.com/69356399/207986227-54f4f184-7133-40cc-b58e-69e3f3f7581a.png)
+
+More visuals to show the difference between which areas Spam SMS and Ham SMS usually tend to be around.
+
+### SMS Preprocessing
+
+![sms preprocessing](https://user-images.githubusercontent.com/69356399/207986420-b6e4d955-3de2-414c-836a-c42e4c3fa70d.png)
+
+### SMS Imbalance
+
+![sms imbalance](https://user-images.githubusercontent.com/69356399/207986505-c8d7026a-ec25-44f3-817b-982613e2a597.png)
+
+![sms imbalance 2](https://user-images.githubusercontent.com/69356399/207986574-a406e160-a416-47c3-ab46-7b3d847a4391.png)
+
+After undersampling the classes are now balanced. We choose undersampling as to not overfit to the examples of spam SMS that are in the dataset.
+
+![sms imbalance 3](https://user-images.githubusercontent.com/69356399/207986640-1f7452ed-1bd8-4566-93f4-3868a0e858fa.png)
+
 
 ## Results & Evaluation 
 

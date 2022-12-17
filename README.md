@@ -76,7 +76,7 @@ We attempted various methods to classify spam sms messages including sklearn spa
 
 As you can see the accuracy and precision are near the 80s range, so there is definitely room for improvement.
 
-#### Neural Network Spacy Vector
+#### <p align="center">Neural Network Spacy Vector</p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207985164-12791ba6-bd92-4a0e-89c5-57211c23ff0c.png" />
@@ -86,7 +86,7 @@ Clearly, the Neural Network does better than the Naive Bayes in most categories 
 
 Our second method using tfidvector had two models, the naive bayes model and neural network.
 
-#### Naive Bayes Tfidvector
+#### <p align="center">Naive Bayes Tfidvector</p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207985350-be5ba3b0-d66c-400c-a4d5-392cfb981588.png" />
@@ -94,7 +94,7 @@ Our second method using tfidvector had two models, the naive bayes model and neu
 
 The Tfidvector from Sklearn really helped improve the overall performance of the model compared to the Spacy Vectors.
 
-#### Neural Network Tfidvector
+#### <p align="center">Neural Network Tfidvector</p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207985491-028b3fa3-3b32-419a-bd05-a66c2d1724cf.png" />

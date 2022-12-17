@@ -110,7 +110,7 @@ Lastly, we also tried using TensorFlow because in TensorFlow there is an embeddi
 
 Here is the graph of the training of the TensorFlow LSTM with the loss and Accuracy shown.
 
-#### Results From Test Data Using TensorFlow
+#### <p align="center">Results From Test Data Using TensorFlow</p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207985668-4225b528-3182-4515-845b-ea6a0b481937.png" />
@@ -127,8 +127,3 @@ As you can see with the TensorFlow LSTM the performance of the accuracy, precisi
 Something we can do differently in the future to improve our model would be to create our own dataset because the SMS Spam collection dataset extracted the sms messages data nearly a decade ago, in 2012. Creating our own data set will assist us in classifying SMS messages that users are currently receiving. Spam messages have evolved significantly over the years, with automated messages appearing more realistic as technology has enabled people to extract data about people via social media and the internet. It's frightening how many messages I get asking me to fill out forms to reduce my property tax using my real name and information. 
 
 While working on the model, I discovered a few questions: How can we use our model to classify SMS messages that contain real information about users that the machines could have extracted from the internet? Another issue to consider is how we will handle the situation in which a real human sends a message that appears to be spam in a production grade application that utilizes our model. Off the top of my head, I believe that one way to solve this could be to let SMS messages sent from a saved contact bypass the spam filters.
-
-
-
-
-

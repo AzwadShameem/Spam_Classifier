@@ -1,5 +1,5 @@
 <h1 align="center">Why classify SMS Spam?</h1>
-<p align="center"> By Khuziama Rehman - Azwad Shameem - Tufayel Ahmed
+<p align="center">By Khuziama Rehman - Azwad Shameem - Tufayel Ahmed</p>
   
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207983824-43ea5e10-28fc-4693-a314-e90550c96930.png" />
@@ -13,7 +13,7 @@ SMS spam is a serious issue and a issue that has skyrocketed recently. In Noveme
 
 This is an intriguing issue because everyone has a cell phone and has been impacted by spam texts. To address a similar issue, tech companies have developed spam detection software. Spam filters detect and prevent unsolicited, unwanted, and virus-infected email from reaching inboxes. Spam filters are used by Internet service providers (ISPs) to ensure that they do not send spam to their customers. Why don't cell phone companies develop software to filter unwanted SMS text messages similar to spam detection software for emails? For our data science project, we developed a model that can classify text messages to determine whether they are spam. Phone companies can use this software to filter unwanted spam texts using our spam classification algorithm, preventing people from being scammed, interfering with people's conversations, and generally improving the user experience.
 
-## <p align="center">SMS Data</p>
+<h1 align="center">SMS Data</h1>
 
 The primary dataset we used is called “SMS Spam Collection Data Set” and the link to it is “https://archive.ics.uci.edu/ml/datasets/sms+spam+collection”. We took the data from Kaggle, which cites the University as their source. The SMS Spam Collection data set extracted 425 SMS spam messages from the Grubletext Website. The majority of claims about SMS spam messages on this UK forum are made anonymously by cell phone users. Identifying the text of spam messages in claims was a difficult and time-consuming operation that required meticulously analyzing hundreds of web pages. The SMS Spam Collection Data set also extracted 3,375 SMS messages that were randomly selected from The NUS SMS Corpus (NSC) which is a dataset of approximately 10,000 genuine SMS messages gathered for research at the National University of Singapore's Department of Computer Science. The SMS Spam collection dataset has a total of 5574 instances and has 2 columns, type and sms. The type can be ham or spam. Ham denotes that the SMS message is not spam, whereas spam denotes that the SMS message is spam. We choose this dataset because it is basically a corpus of all the available SMS message datasets, unfortunately there is no other alternative because all of the available SMS messages are in this dataset.
 
@@ -22,7 +22,7 @@ The primary dataset we used is called “SMS Spam Collection Data Set” and the
 </p>
 
 
-## <p align="center">SMS Data Visualization</p>
+<h1 align="center">SMS Data Visualization</h1>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22661020/208225318-c5907e9d-90b6-4d11-9bac-ba59a7d39085.png" />
@@ -40,13 +40,13 @@ The visualization at the top depicts the words that are most commonly associated
 
 More visuals to show the difference between which areas Spam SMS and Ham SMS usually tend to be around.
 
-### <p align="center">SMS Preprocessing</p>
+<h1 align="center">SMS Preprocessing</h1>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22661020/208225495-d54b2a89-f240-400f-b4cd-329ff5fb003f.png" />
 </p>
 
-### <p align="center">SMS Imbalance</p>
+<h1 align="center">SMS Imbalance</h1>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207986505-c8d7026a-ec25-44f3-817b-982613e2a597.png" />
@@ -62,11 +62,11 @@ After undersampling the classes are now balanced. We choose undersampling as to 
   <img src="https://user-images.githubusercontent.com/22661020/208225524-9d4746fb-5572-43d4-8911-d5849316b7e7.png" />
 </p>
 
-## <p align="center">Results & Evaluation</p>
+<h1 align="center">Results & Evaluation</h1>
 
 We attempted various methods to classify spam sms messages including sklearn spacy vectors, tfidvector and TensorFlow. Our first method using spacy vectorization of SMS text messages had two models, a Naive Bayes Model and a Neural Network from Sklearn.
 
-#### <p align="center">Naive Bayes Spacy Vector</p>
+<h1 align="center">Naive Bayes Spacy Vector</h1>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207985035-2a790207-85a6-4798-a915-a82e443176ae.png" />
@@ -74,7 +74,7 @@ We attempted various methods to classify spam sms messages including sklearn spa
 
 As you can see the accuracy and precision are near the 80s range, so there is definitely room for improvement.
 
-#### <p align="center">Neural Network Spacy Vector</p>
+<h1 align="center">Neural Network Spacy Vector</h1>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207985164-12791ba6-bd92-4a0e-89c5-57211c23ff0c.png" />
@@ -84,7 +84,7 @@ Clearly, the Neural Network does better than the Naive Bayes in most categories 
 
 Our second method using tfidvector had two models, the naive bayes model and neural network.
 
-#### <p align="center">Naive Bayes Tfidvector</p>
+<h1 align="center">Naive Bayes Tfidvector</h1>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207985350-be5ba3b0-d66c-400c-a4d5-392cfb981588.png" />
@@ -92,7 +92,7 @@ Our second method using tfidvector had two models, the naive bayes model and neu
 
 The Tfidvector from Sklearn really helped improve the overall performance of the model compared to the Spacy Vectors.
 
-#### <p align="center">Neural Network Tfidvector</p>
+<h1 align="center">Neural Network Tfidvector</h1>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207985491-028b3fa3-3b32-419a-bd05-a66c2d1724cf.png" />
@@ -108,7 +108,7 @@ Lastly, we also tried using TensorFlow because in TensorFlow there is an embeddi
 
 Here is the graph of the training of the TensorFlow LSTM with the loss and Accuracy shown.
 
-#### <p align="center">Results From Test Data Using TensorFlow</p>
+<h1 align="center">Results From Test Data Using TensorFlow</h1>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207985668-4225b528-3182-4515-845b-ea6a0b481937.png" />
@@ -120,7 +120,7 @@ Here is the graph of the training of the TensorFlow LSTM with the loss and Accur
 
 As you can see with the TensorFlow LSTM the performance of the accuracy, precision, recall and pr auc is all above 99%, which is really good. This is most likely due to using TensorFlow’s tokenizer and the embedding layer that is in the TensorFlow model. Our model correctly classified SMS messages as spam or ham, and we are impressed with the performance on the dataset, since as shown in the graph above, our model's accuracy score was 99.1% which is phenomenal. However this model isn't industry grade since the data we used was gathered a decade ago in 2012. Currently, there is no workaround because after a lot of researching this was the latest dataset available as a SMS corpus.
 
-## <p align="center">Future Work</p>
+<h1 align="center">Future Work</h1>
 
 Something we can do differently in the future to improve our model would be to create our own dataset because the SMS Spam collection dataset extracted the sms messages data nearly a decade ago, in 2012. Creating our own data set will assist us in classifying SMS messages that users are currently receiving. Spam messages have evolved significantly over the years, with automated messages appearing more realistic as technology has enabled people to extract data about people via social media and the internet. It's frightening how many messages I get asking me to fill out forms to reduce my property tax using my real name and information. 
 

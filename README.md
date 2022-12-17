@@ -1,18 +1,17 @@
 
 ## Spam Classifier Team - Khuziama Rehman - Azwad Shameem - Tufayel Ahmed
 
+## Why classify SMS Spam?
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207983824-43ea5e10-28fc-4693-a314-e90550c96930.png" />
 </p>   
 
-## Introduction
-
-Everyone has a cell phone, and they text their friends and family numerous times per day. Many people have received SMS messages from unknown senders attempting to steal their personal and financial information. This is a serious issue that we are attempting to help solve because spam SMS messages obstruct users and have the potential to steal personal information. 
+SMS spam is a serious issue and a issue that has skyrocketed recently. In Novemeber 2022, the number of SMS spam has skyrocketed and it is inevitable for this trend to continue because everyone has a cell phone, and they text their friends and family numerous times per day. As a result, many people will receive SMS messages from unknown senders attempting to steal their personal and financial information. This is a serious issue that we are attempting to help solve because spam SMS messages obstruct users and have the potential to steal personal information. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207984001-b3a1b460-6635-4896-9804-72bc050e73c4.png" />
 </p>   
-
 
 This is an intriguing issue because everyone has a cell phone and has been impacted by spam texts. To address a similar issue, tech companies have developed spam detection software. Spam filters detect and prevent unsolicited, unwanted, and virus-infected email from reaching inboxes. Spam filters are used by Internet service providers (ISPs) to ensure that they do not send spam to their customers. Why don't cell phone companies develop software to filter unwanted SMS text messages similar to spam detection software for emails? For our data science project, we developed a model that can classify text messages to determine whether they are spam. Phone companies can use this software to filter unwanted spam texts using our spam classification algorithm, preventing people from being scammed, interfering with people's conversations, and generally improving the user experience.
 

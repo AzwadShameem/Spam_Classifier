@@ -45,7 +45,7 @@ More visuals to show the difference between which areas Spam SMS and Ham SMS usu
 ### SMS Preprocessing
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/69356399/207986420-b6e4d955-3de2-414c-836a-c42e4c3fa70d.png" />
+  <img src="https://user-images.githubusercontent.com/22661020/208225495-d54b2a89-f240-400f-b4cd-329ff5fb003f.png" />
 </p>
 
 ### SMS Imbalance

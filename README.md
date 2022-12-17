@@ -2,7 +2,7 @@
 ## Spam Classifier
 #### By Khuziama Rehman - Azwad Shameem - Tufayel Ahmed
 
-<title align="center">Why classify SMS Spam?</title>
+<h1 align="center">Why classify SMS Spam?</h1>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207983824-43ea5e10-28fc-4693-a314-e90550c96930.png" />

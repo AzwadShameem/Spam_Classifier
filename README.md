@@ -66,7 +66,7 @@ After undersampling the classes are now balanced. We choose undersampling as to 
 
 We attempted various methods to classify spam sms messages including sklearn spacy vectors, tfidvector and TensorFlow. Our first method using spacy vectorization of SMS text messages had two models, a Naive Bayes Model and a Neural Network from Sklearn.
 
-<h1 align="center">Naive Bayes Spacy Vector</h1>
+<p align="center">Naive Bayes Spacy Vector</p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207985035-2a790207-85a6-4798-a915-a82e443176ae.png" />
@@ -74,7 +74,7 @@ We attempted various methods to classify spam sms messages including sklearn spa
 
 As you can see the accuracy and precision are near the 80s range, so there is definitely room for improvement.
 
-<h1 align="center">Neural Network Spacy Vector</h1>
+<p align="center">Neural Network Spacy Vector</p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207985164-12791ba6-bd92-4a0e-89c5-57211c23ff0c.png" />

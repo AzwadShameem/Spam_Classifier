@@ -25,6 +25,7 @@ The primary dataset we used is called “SMS Spam Collection Data Set” and the
 
 
 ## SMS Data Visualization
+![image](https://user-images.githubusercontent.com/22661020/208225318-c5907e9d-90b6-4d11-9bac-ba59a7d39085.png)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207984747-130da9a6-fbc9-4096-9799-3077aea686be.png" />

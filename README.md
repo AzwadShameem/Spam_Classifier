@@ -84,7 +84,7 @@ Clearly, the Neural Network does better than the Naive Bayes in most categories 
 
 Our second method using tfidvector had two models, the naive bayes model and neural network.
 
-<h1 align="center">Naive Bayes Tfidvector</h1>
+<p align="center">Naive Bayes Tfidvector</p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207985350-be5ba3b0-d66c-400c-a4d5-392cfb981588.png" />
@@ -92,7 +92,7 @@ Our second method using tfidvector had two models, the naive bayes model and neu
 
 The Tfidvector from Sklearn really helped improve the overall performance of the model compared to the Spacy Vectors.
 
-<h1 align="center">Neural Network Tfidvector</h1>
+<p align="center">Neural Network Tfidvector</p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207985491-028b3fa3-3b32-419a-bd05-a66c2d1724cf.png" />
@@ -108,7 +108,7 @@ Lastly, we also tried using TensorFlow because in TensorFlow there is an embeddi
 
 Here is the graph of the training of the TensorFlow LSTM with the loss and Accuracy shown.
 
-<h1 align="center">Results From Test Data Using TensorFlow</h1>
+<p align="center">Results From Test Data Using TensorFlow</p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69356399/207985668-4225b528-3182-4515-845b-ea6a0b481937.png" />

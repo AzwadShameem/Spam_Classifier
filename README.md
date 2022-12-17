@@ -37,7 +37,7 @@ The primary dataset we used is called “SMS Spam Collection Data Set” and the
 The visualization at the top depicts the words that are most commonly associated with spam SMS messages. As you can see, the larger text represents words that appear more frequently in spam sms messages. The words "free, text, txt, mobile, call," for example, appear frequently in spam sms messages. Based on the SPAM collection dataset, we used this data to build a model that can detect whether a message is spam. The bottom visualization shows words that are associated with non-spam SMS messages. As you can see, words like "ur, u, love, come, going, think, need" represent words that appear more frequently in non-spam sms messages.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/69356399/207986227-54f4f184-7133-40cc-b58e-69e3f3f7581a.png" />
+  <img src="https://user-images.githubusercontent.com/22661020/208225451-5f8a2ed3-b6e6-4986-8d18-8d2739b3d07c.png" />
 </p>
 
 More visuals to show the difference between which areas Spam SMS and Ham SMS usually tend to be around.

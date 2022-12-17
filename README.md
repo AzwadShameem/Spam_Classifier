@@ -61,7 +61,7 @@ More visuals to show the difference between which areas Spam SMS and Ham SMS usu
 After undersampling the classes are now balanced. We choose undersampling as to not overfit to the examples of spam SMS that are in the dataset.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/69356399/207986640-1f7452ed-1bd8-4566-93f4-3868a0e858fa.png" />
+  <img src="https://user-images.githubusercontent.com/22661020/208225524-9d4746fb-5572-43d4-8911-d5849316b7e7.png" />
 </p>
 
 ## Results & Evaluation 

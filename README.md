@@ -1,5 +1,6 @@
 
-## Spam Classifier Team - Khuziama Rehman - Azwad Shameem - Tufayel Ahmed
+## Spam Classifier
+#### By Khuziama Rehman - Azwad Shameem - Tufayel Ahmed
 
 ## Why classify SMS Spam?
 
